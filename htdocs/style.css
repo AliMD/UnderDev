@@ -27,14 +27,14 @@ div.logo:hover {
 }
 
 div.logo div.desc{
-  width: 300px;
+  width: 400px;
   background-image: url('images/desc-bg.png');
   background-repeat: repeat;
   position: absolute;
-  top: 0;
+  top: 25px;
   right: 220px;
-  opacity: 0;
-  -webkit-transition: opacity 300ms ease-in;
+  opacity: 0.05;
+  -webkit-transition: opacity 500ms ease-in-out;
 }
 
 div.logo:hover div.desc{
