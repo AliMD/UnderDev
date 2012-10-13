@@ -14,9 +14,10 @@
 	<header></header>
 	<section class='slideshow'>
 		<div class="logo">
-			<h1 class="indent">Ghasem Saffron</h1>
 			<div class="descContainer">
-				<div class="title">Donec interdum aliquet feugiat</div>
+				<div class="title">
+					<h1>Donec interdum aliquet feugiat</h1>
+					</div>
 				<div class="desc">
 					<p>Donec interdum aliquet feugiat. Quisque sit amet felis nisi. Aenean dig posuere est in ornare. Pellentesque luctus ultricies tortor, quis euismod neque venenatis. Donec interdum aliquet feugiat est in ornare. Pellentesque luctus ultricies tortor, quis euismod neque venenatis.</p>
 				</div>

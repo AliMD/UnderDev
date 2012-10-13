@@ -26,6 +26,26 @@ div.logo:hover {
   opacity: 0.98;
 }
 
+div.logo div.title{
+  background-image: url('images/title-bg.png');
+  background-repeat: repeat;
+  position: absolute;
+  bottom: 180px;
+  right: 300px;
+  width: 320px;
+  border-radius: 5px;
+}
+
+div.title h1{
+  padding: 0px 20px 3px;
+  text-shadow: 1px 1px 0 #000;
+  color: #ededed;
+  font-size: 16px;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', Arial, san-serif;
+  font-weight: bold;
+  line-height: 30px;
+}
+
 div.logo div.desc{
   width: 400px;
   background-image: url('images/desc-bg.png');
@@ -33,12 +53,15 @@ div.logo div.desc{
   position: absolute;
   top: 35px;
   right: 220px;
-  opacity: 0.06;
   border-radius: 5px;
   -webkit-transition: opacity 500ms ease-in-out;
 }
 
-div.logo:hover div.desc{
+div.logo div.desc div.hover-mode{
+  opacity: 0.06;
+}
+
+div.logo:hover div.desc div.hover-mode{
   opacity: 1;
 }
 
