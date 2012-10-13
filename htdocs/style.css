@@ -57,11 +57,11 @@ div.logo div.desc{
   -webkit-transition: opacity 500ms ease-in-out;
 }
 
-div.logo div.desc div.hover-mode{
+div.logo div.hover-mode{
   opacity: 0.06;
 }
 
-div.logo:hover div.desc div.hover-mode{
+div.logo:hover div.hover-mode{
   opacity: 1;
 }
 

@@ -15,7 +15,7 @@
 	<section class='slideshow'>
 		<div class="logo">
 			<h1 class="indent">Ghasem Saffron</h1>
-			<div class="desc">
+			<div class="desc hover-mode">
 				<p>Donec interdum aliquet feugiat. Quisque sit amet felis nisi. Aenean dig posuere est in ornare. Pellentesque luctus ultricies tortor, quis euismod neque venenatis. Donec interdum aliquet feugiat est in ornare. Pellentesque luctus ultricies tortor, quis euismod neque venenatis.</p>
 			</div>
 		</div>
