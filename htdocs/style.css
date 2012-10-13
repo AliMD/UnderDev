@@ -31,9 +31,10 @@ div.logo div.desc{
   background-image: url('images/desc-bg.png');
   background-repeat: repeat;
   position: absolute;
-  top: 25px;
+  top: 35px;
   right: 220px;
   opacity: 0.05;
+  border-radius: 5px;
   -webkit-transition: opacity 500ms ease-in-out;
 }
 
