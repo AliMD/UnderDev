@@ -19,6 +19,7 @@ div.logo {
   right: 2%;
   bottom: 60px;
   opacity: 0.85;
+  overflow: hidden;
   -webkit-transition: opacity 500ms;
 }
 div.logo:hover {
@@ -26,12 +27,12 @@ div.logo:hover {
   opacity: 0.98;
 }
 
-div.logo div.title{
+section.slideshow div.title{
   background-image: url('images/title-bg.png');
   background-repeat: repeat;
   position: absolute;
-  bottom: 180px;
-  right: 300px;
+  bottom: 220px;
+  right: 320px;
   width: 320px;
   border-radius: 5px;
 }
@@ -46,22 +47,23 @@ div.title h1{
   line-height: 30px;
 }
 
-div.logo div.desc{
+section.slideshow div.desc{
   width: 400px;
   background-image: url('images/desc-bg.png');
   background-repeat: repeat;
   position: absolute;
-  top: 35px;
-  right: 220px;
+  bottom: 70px;
+  right: 240px;
   border-radius: 5px;
   -webkit-transition: opacity 500ms ease-in-out;
 }
 
-div.logo div.hover-mode{
+section.slideshow div.hover-mode{
   opacity: 0.06;
+  bottom: 90px !important;
 }
 
-div.logo:hover div.hover-mode{
+section.slideshow div.hover-mode:hover{
   opacity: 1;
 }
 
