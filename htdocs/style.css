@@ -27,6 +27,15 @@ div.logo:hover {
   opacity: 0.98;
 }
 
+section.slideshow div.descContainer{
+  opacity: 0.8;
+  -webkit-transition: opacity 500ms;
+}
+
+section.slideshow div.descContainer:hover{
+  opacity: 0.95;
+}
+
 section.slideshow div.title{
   background-image: url('images/title-bg.png');
   background-repeat: repeat;
@@ -35,6 +44,10 @@ section.slideshow div.title{
   right: 320px;
   width: 320px;
   border-radius: 5px;
+}
+
+body.noLogo section.slideshow div.title{
+  right: 180px !important;
 }
 
 div.title h1{
@@ -56,6 +69,10 @@ section.slideshow div.desc{
   right: 240px;
   border-radius: 5px;
   -webkit-transition: opacity 500ms ease-in-out;
+}
+
+body.noLogo section.slideshow div.desc{
+  right: 100px !important;
 }
 
 section.slideshow div.hover-mode{
