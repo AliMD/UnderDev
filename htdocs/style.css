@@ -15,7 +15,6 @@ div.logo {
   background-repeat: no-repeat;
   width: 212px;
   height: 200px;
-  overflow: hidden;
   position: fixed;
   right: 2%;
   bottom: 60px;
@@ -26,6 +25,24 @@ div.logo:hover {
   -webkit-transition: opacity 250ms;
   opacity: 0.98;
 }
+
+div.logo div.desc{
+  width: 300px;
+  background-image: url('images/desc-bg.png');
+  background-repeat: repeat;
+  position: absolute;
+  top: 0;
+  right: 220px;
+
+}
+
+div.desc p{
+  color: #272727;
+  font: normal 12px 'Lucida Sans Unicode', 'Lucida Grande', Arial, san-serif;
+  padding: 15px 20px 15px;
+  line-height: 20px;
+}
+
 h1.indent {
   text-indent: 50000px;
   white-space: nowrap;
