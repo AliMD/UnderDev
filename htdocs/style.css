@@ -33,7 +33,12 @@ div.logo div.desc{
   position: absolute;
   top: 0;
   right: 220px;
+  opacity: 0;
+  -webkit-transition: opacity 300ms ease-in;
+}
 
+div.logo:hover div.desc{
+  opacity: 1;
 }
 
 div.desc p{
