@@ -9,12 +9,11 @@
 	<script type="text/javascript"> document.write('<script type="text/javascript" src=scripts/' + ('__proto__' in {} ? 'zepto' : 'jquery') + '.js><\/script>'); </script>
 	<script type="text/javascript" src="scripts/underdev.js"></script>
 </head>
-</head>
 <body>
 	<header></header>
 	<section class='slideshow'>
 		<div class="logo">
-			<h1 class="indent">Ghasem Saffron</h1>
+			<h1 class="indent">you logo title</h1>
 		</div>
 		<div class="noise"></div>
 		<section class="backimg">
