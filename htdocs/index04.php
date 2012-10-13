@@ -14,10 +14,10 @@
 	<header></header>
 	<section class='slideshow'>
 			<div class="descContainer">
-				<div class="title">
+				<div class="title unload">
 					<h1>Donec interdum aliquet feugiat</h1>
 					</div>
-				<div class="desc">
+				<div class="desc unload">
 					<p>Donec interdum aliquet feugiat. Quisque sit amet felis nisi. Aenean dig posuere est in ornare. Pellentesque luctus ultricies tortor, quis euismod neque venenatis. Donec interdum aliquet feugiat est in ornare. Pellentesque luctus ultricies tortor, quis euismod neque venenatis.</p>
 				</div>
 			</div>

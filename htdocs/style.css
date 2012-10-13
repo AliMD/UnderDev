@@ -32,6 +32,11 @@ section.slideshow div.descContainer{
   -webkit-transition: opacity 500ms;
 }
 
+section.slideshow .unload{
+  right: 800px !important;
+  opacity: 0;
+}
+
 section.slideshow div.descContainer:hover{
   opacity: 0.95;
 }
@@ -44,10 +49,11 @@ section.slideshow div.title{
   right: 320px;
   width: 320px;
   border-radius: 5px;
+  -webkit-transition: all 700ms ease-in;
 }
 
 body.noLogo section.slideshow div.title{
-  right: 180px !important;
+  right: 180px;
 }
 
 div.title h1{
@@ -68,11 +74,11 @@ section.slideshow div.desc{
   bottom: 70px;
   right: 240px;
   border-radius: 5px;
-  -webkit-transition: opacity 500ms ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
 }
 
 body.noLogo section.slideshow div.desc{
-  right: 100px !important;
+  right: 100px;
 }
 
 section.slideshow div.hover-mode{

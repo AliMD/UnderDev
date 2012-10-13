@@ -36,3 +36,7 @@
 $(function(){
 	$('.backimg > div').fadeLoop();
 });
+
+window.onload = function(){
+	$('.descContainer > div').removeClass('unload');
+}
