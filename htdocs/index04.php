@@ -13,7 +13,6 @@
 <body>
 	<header></header>
 	<section class='slideshow'>
-		<div class="logo">
 			<div class="descContainer">
 				<div class="title">
 					<h1>Donec interdum aliquet feugiat</h1>
@@ -22,7 +21,6 @@
 					<p>Donec interdum aliquet feugiat. Quisque sit amet felis nisi. Aenean dig posuere est in ornare. Pellentesque luctus ultricies tortor, quis euismod neque venenatis. Donec interdum aliquet feugiat est in ornare. Pellentesque luctus ultricies tortor, quis euismod neque venenatis.</p>
 				</div>
 			</div>
-		</div>
 		<div class="noise"></div>
 		<section class="backimg">
 			<?php
