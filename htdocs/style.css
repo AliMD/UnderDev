@@ -33,7 +33,7 @@ div.logo div.desc{
   position: absolute;
   top: 35px;
   right: 220px;
-  opacity: 0.05;
+  opacity: 0.06;
   border-radius: 5px;
   -webkit-transition: opacity 500ms ease-in-out;
 }
@@ -50,7 +50,7 @@ div.desc p{
 }
 
 h1.indent {
-  text-indent: 50000px;
+  text-indent: 90000px;
   white-space: nowrap;
 }
 div.noise {
