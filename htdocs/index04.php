@@ -10,7 +10,7 @@
 	<script type="text/javascript" src="scripts/underdev.js"></script>
 </head>
 </head>
-<body>
+<body class="noLogo">
 	<header></header>
 	<section class='slideshow'>
 			<div class="descContainer">
