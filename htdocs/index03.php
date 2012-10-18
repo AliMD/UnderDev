@@ -1,3 +1,4 @@
+<?php require_once('dynamic_content.php'); ?>
 <!doctype html>
 <html lang="en-US">
 <head>
@@ -20,7 +21,7 @@
 					<h1>Donec interdum aliquet feugiat</h1>
 					</div>
 				<div class="desc">
-					<p>Donec interdum aliquet feugiat. Quisque sit amet felis nisi. Aenean dig posuere est in ornare. Pellentesque luctus ultricies tortor, quis euismod neque venenatis. Donec interdum aliquet feugiat est in ornare. Pellentesque luctus ultricies tortor, quis euismod neque venenatis.</p>
+					<?php dynamic_content('description',"<div class='desc'>",'</div>') ?>
 				</div>
 			</div>
 		<div class="noise"></div>
