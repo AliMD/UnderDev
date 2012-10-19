@@ -1,3 +1,4 @@
+<?php require_once('dynamic_content.php'); ?>
 <!doctype html>
 <html lang="en-US">
 <head>
@@ -13,34 +14,11 @@
 	<header></header>
 	<section class='slideshow'>
 			<div class="descContainer">
-				<div class="title unload">
-					<h1>Donec interdum aliquet feugiat</h1>
-					</div>
-				<div class="desc unload">
-					<p>Donec interdum aliquet feugiat. Quisque sit amet felis nisi. Aenean dig posuere est in ornare. Pellentesque luctus ultricies tortor, quis euismod neque venenatis. Donec interdum aliquet feugiat est in ornare. Pellentesque luctus ultricies tortor, quis euismod neque venenatis.</p>
-				</div>
-			</div>
-		<div class="noise"></div>
-		<section class="backimg">
-			<?php
-				$images_path = './images/under';
 
-				$images = scandir($images_path);
-				$slidesLen = 0;
-				foreach($images as $img){
-					$img_arr = explode('.', $img);
-					$img_type = strtolower( end($img_arr) );
-					if ($img_type=='jpg') {
-						echo "<div style=\"background-image:url('$images_path/$img');\"></div>";
-						$slidesLen++;
-					}
-				}
-			?>
-		</section>
-	</section>
-	<footer>
-		<h1>Under Construction</h1>
-		<h2>Tel: +00 000 000 0000</h2>
-	</footer>
-</body>
-</html>
+				<?php dynamic_content('description_title',"<div class='title unload'>",'</div>') ?>
+	
+				<?php dynamic_content('description_text',"<div class='desc unload'>",'</div>') ?>
+
+			</div>
+<?php include 'inc/slideshow.php'; ?>
+<?php include 'inc/footer.php'; ?>
