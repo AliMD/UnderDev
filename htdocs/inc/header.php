@@ -3,7 +3,7 @@
 <html lang="en-US">
 <head>
 	<meta charset="utf-8" />
-	<title>..:: UnderDev ::..</title>
+	<?php dynamic_content('page_title',"<title>",'</title>') ?>
 	<link rel="stylesheet" type="text/css" href="1styles.css" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<script type="text/javascript" src="scripts/html5shiv.js"></script>
