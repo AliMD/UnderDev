@@ -17,12 +17,11 @@
 			<h1 class="indent">you logo title</h1>
 		</div>
 			<div class="descContainer">
-				<div class="title">
-					<h1>Donec interdum aliquet feugiat</h1>
-					</div>
-				<div class="desc">
-					<?php dynamic_content('description',"<div class='desc'>",'</div>') ?>
-				</div>
+
+				<?php dynamic_content('description_title',"<div class='title'>",'</div>') ?>
+				
+				<?php dynamic_content('description_text',"<div class='desc'>",'</div>') ?>
+				
 			</div>
 		<div class="noise"></div>
 		<section class="backimg">
