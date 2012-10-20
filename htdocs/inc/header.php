@@ -3,22 +3,13 @@
 <html lang="en-US">
 <head>
 	<meta charset="utf-8" />
-	<title>..:: UnderDev ::..</title>
+	<?php dynamic_content('page_title',"<title>",'</title>') ?>
 	<link rel="stylesheet" type="text/css" href="1styles.css" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<script type="text/javascript" src="scripts/html5shiv.js"></script>
 	<script type="text/javascript"> document.write('<script type="text/javascript" src=scripts/' + ('__proto__' in {} ? 'zepto' : 'jquery') + '.js><\/script>'); </script>
 	<script type="text/javascript" src="scripts/underdev.js"></script>
 </head>
-<body class="noLogo">
+<body>
 	<header></header>
 	<section class='slideshow'>
-			<div class="descContainer">
-
-				<?php dynamic_content('description_title',"<div class='title unload'>",'</div>') ?>
-	
-				<?php dynamic_content('description_text',"<div class='desc unload'>",'</div>') ?>
-
-			</div>
-<?php include 'inc/slideshow.php'; ?>
-<?php include 'inc/footer.php'; ?>
