@@ -42,7 +42,7 @@ section.slideshow div.descContainer:hover{
 }
 
 section.slideshow div.title{
-  background-image: url('images/title-bg.png');
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA9JREFUeNpiYGBgmAkQYAAAngCaoMXLCwAAAABJRU5ErkJggg==');
   background-repeat: repeat;
   position: absolute;
   bottom: 220px;
@@ -68,7 +68,7 @@ div.title h1{
 
 section.slideshow div.desc{
   width: 400px;
-  background-image: url('images/desc-bg.png');
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABBJREFUeNpi+P///0yAAAMACZUDl8+B/NgAAAAASUVORK5CYII=');
   background-repeat: repeat;
   position: absolute;
   bottom: 70px;
