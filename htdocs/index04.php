@@ -13,12 +13,10 @@
 <body class="noLogo">
 	<header></header>
 	<section class='slideshow'>
-			<div class="descContainer">
-
-				<?php dynamic_content('description_title',"<div class='title unload'>",'</div>') ?>
-	
-				<?php dynamic_content('description_text',"<div class='desc unload'>",'</div>') ?>
-
-			</div>
+	<div class="container">
+		
+		<?php include 'inc/description.php'; ?>
+		
+	</div>
 <?php include 'inc/slideshow.php'; ?>
 <?php include 'inc/footer.php'; ?>
