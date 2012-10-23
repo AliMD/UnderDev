@@ -52,10 +52,6 @@ section.slideshow div.container:hover{
   opacity: 0.95;
 }
 
-body.noLogo section.slideshow h1.title{
-  right: 180px;
-}
-
 section.slideshow h1.title{
   padding: 0px 20px 3px;
   text-shadow: 1px 1px 0 #000;
@@ -96,8 +92,9 @@ section.slideshow p.desc{
 
 }
 
-body.noLogo section.slideshow p.desc{
-  right: 100px;
+body.noLogo section.slideshow p.desc,
+body.noLogo section.slideshow h1.title{
+  margin-left: 190px;
 }
 
 section.slideshow div.hover-mode{
