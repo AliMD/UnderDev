@@ -43,11 +43,6 @@ section.slideshow div.container{
   height: 185px;
 }
 
-section.slideshow .unload{
-  right: 800px !important;
-  opacity: 0;
-}
-
 section.slideshow div.container:hover{
   opacity: 0.95;
 }
