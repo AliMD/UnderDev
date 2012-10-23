@@ -31,12 +31,12 @@
 			})();
 		}
 	});
-})($)
 
-$(function(){
-	$('.backimg > div').fadeLoop();
-});
+	$(function(){
+		$('.backimg > div').fadeLoop({
+			duration : 1500,
+			delay : 2000
+		});
+	});
 
-window.onload = function(){
-	$('.descContainer > div').removeClass('unload');
-}
+})(window.Zepto || window.jQuery);
