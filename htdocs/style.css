@@ -140,8 +140,8 @@ footer h1 a:visited {
 }
 footer h2 {
   float: right;
+  margin-top: 22px;
   letter-spacing: 1px;
-  font-size: 16px;
-  line-height: 55px;
+  font-size: 17px;
   padding-right: 43px;
 }
