@@ -4,11 +4,10 @@
 <!--[if IE 7]>			<html lang="en-US" dir="ltr" class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>			<html lang="en-US" dir="ltr" class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->	<html lang="en-US" dir="ltr" class="no-js"> <!--<![endif]-->
-<html lang="en-US">
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width" /
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width" />
 	<?php dynamic_content('page_title',"<title>",'</title>'); ?>
 	<?php dynamic_content('description_text','<meta name="description" content="','" />'); ?>
 	<link rel="stylesheet" type="text/css" href="1styles.css" />
