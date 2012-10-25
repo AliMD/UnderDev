@@ -1,7 +1,3 @@
-<div class="descContainer">
-
-	<?php dynamic_content('description_title',"<div class='title'>",'</div>') ?>
+	<?php dynamic_content('description_title',"<h1 class='title'>",'</h1>') ?>
 	
-	<?php dynamic_content('description_text',"<div class='desc'>",'</div>') ?>
-	
-</div>
+	<?php dynamic_content('description_text',"<p class='desc'>",'</p>') ?>
