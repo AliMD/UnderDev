@@ -198,6 +198,7 @@ footer h2 {
 .lt-ie7 body *{
 	display: none;
 }
-.lt-ie7 body .chromeframe {
+.lt-ie7 body .chromeframe,
+.lt-ie7 body .chromeframe a {
 	display: block;
 }
