@@ -39,7 +39,7 @@ section.slideshow div.container{
   position: fixed;
   bottom: 60px;
   right: 0;
-  width: 680px;
+  width: 670px;
   height: 185px;
 }
 
@@ -162,5 +162,5 @@ footer h2 {
   margin-top: 22px;
   letter-spacing: 1px;
   font-size: 17px;
-  padding-right: 43px;
+  padding-right: 45px;
 }
