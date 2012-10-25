@@ -182,3 +182,22 @@ footer h2 {
 	font-size: 17px;
 	padding-right: 45px;
 }
+
+.chromeframe{
+	color: white;
+	margin-top: 25px;
+	text-align: center;
+}
+.chromeframe a{
+	color: white;
+	text-decoration: underline;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.lt-ie7 body *{
+	display: none;
+}
+.lt-ie7 body .chromeframe {
+	display: block;
+}
