@@ -203,6 +203,23 @@ footer h2 {
 	display: inline;
 }
 
+/*Popup
+********************************/
+div.popup{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 350px;
+	height: 450px;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABBJREFUeNpi+P///0yAAAMACZUDl8+B/NgAAAAASUVORK5CYII=');
+	z-index: 5;
+	padding: 30px;
+}
+
+
 /*Contact-us
 ********************************/
 .contact .text {
