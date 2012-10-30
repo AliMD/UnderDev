@@ -205,26 +205,6 @@ footer h2 {
 
 /*Contact-us
 ********************************/
-.contact {
-	width: 330px;
-	margin: 100px auto 0;
-	border-radius:10px;
-	background-color:#f4f4f4;
-	box-shadow:0 0 20px #666;
-	font-size:11px;
-	font-family:Arial, Helvetica, sans-serif;
-	padding:1px 15px 15px;
-}
-
-.contact h2 {
-	margin        :20px 0 15px;
-	color         :#88708A;
-	font-size     :22px;
-	text-shadow   :0 1px 0 #DADADA;
-	letter-spacing:2px;
-	font-weight   :bold;
-}
-
 .contact .text {
 	border:1px solid #fff;
 	border-left:1px solid #b2b2b2;
