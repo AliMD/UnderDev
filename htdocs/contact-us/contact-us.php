@@ -1,5 +1,5 @@
-<?php include 'inc/header.php'; ?>
-
+<?php include '../inc/header.php'; ?>
+	<script type="text/javascript" src="scripts/contact.js"></script>
 <section class="contact">
 	<h2>Contact Us ...</h2>
 	<form id="contact-form" action="sendmail.php" method="post" target='ifrm'>
@@ -12,4 +12,4 @@
 	<iframe id='ifrm' name='ifrm' src="" frameborder="0" scrolling="no"></iframe>
 </section>
 
-<?php include 'inc/footer.php'; ?>
+<?php include '../inc/footer.php'; ?>
