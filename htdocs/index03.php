@@ -3,7 +3,6 @@
 <div class="container">
 	<?php include 'inc/description.php'; ?>
 	<?php include 'inc/logo.php'; ?>
-	
 </div>
-
+<?php include 'inc/contact-us.php'; ?>
 <?php include 'inc/footer.php'; ?>
