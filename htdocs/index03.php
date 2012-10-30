@@ -5,4 +5,5 @@
 	<?php include 'inc/logo.php'; ?>
 </div>
 <?php include 'inc/contact-us.php'; ?>
+<?php include 'inc/notify.php'; ?>
 <?php include 'inc/footer.php'; ?>
