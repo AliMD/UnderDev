@@ -63,11 +63,11 @@
 		$('section.slideshow p.desc').animate({'left':'0px','opacity':'1'},1200,ease);
 		$('section.slideshow h1.title').animate({'left':'0px','opacity':'1'},900,ease);
 
+		$('body').removeClass('preload');
+
 		function validateText(str,len){
 	return str.length >= len;
 }
-
-
 
 	function validateEmail(str){
 		var emailPattern = /^[a-z0-9+_%.-]+@(?:[a-z0-9-]+\.)+[a-z]{2,6}$/i ;
