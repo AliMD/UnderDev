@@ -320,19 +320,16 @@ div.popup{
 div.progressbar{
 	margin: 120px 0 auto;
 	width: 350px;
-	height: 34px;
-	-webkit-box-shadow: 0 0 2px 1px #545454;
-}
-
-div.progressbar div.line{
+	height: 32px;
 	border: 1px #101010 solid;
-	height: 32px
+	-webkit-box-shadow: 0 0 2px 1px #545454;
+	overflow: hidden;
 }
 
-div.line div.loading{
+div.progressbar div.bar{
 	background-image:url('images/progress.png');
-	width: 40%;
-	max-width: 100%;
+	width: 35%;
+	-webkit-transition: all 500ms;
 	height: inherit;
-
+	background-size: contain;
 }
