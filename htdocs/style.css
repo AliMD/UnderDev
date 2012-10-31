@@ -318,7 +318,7 @@ div.popup{
 /*Contact-us
 ********************************/
 div.progressbar{
-	margin: 120px 0 auto;
+	margin: 150px 0 auto;
 	width: 350px;
 	height: 32px;
 	border: 1px #101010 solid;
@@ -350,7 +350,6 @@ div.percentHolder div.percent{
 div.percentHolder div.percent span{
 	color: #DDD;
 	line-height: 26px;
-	width: 48px;
 	height: inherit;
 	display: block;
 	text-align: center;
