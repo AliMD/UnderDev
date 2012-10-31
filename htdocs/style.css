@@ -220,7 +220,6 @@ div.popup{
 	margin: auto;
 	width: 350px;
 	height: 450px;
-	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABBJREFUeNpi+P///0yAAAMACZUDl8+B/NgAAAAASUVORK5CYII=');
 	z-index: 5;
 	padding: 30px;
 }
@@ -322,7 +321,7 @@ div.progressbar{
 	margin: 120px 0 auto;
 	width: 350px;
 	height: 34px;
-	-webkit-box-shadow: 0 0 1px 1px #545454;
+	-webkit-box-shadow: 0 0 2px 1px #545454;
 }
 
 div.progressbar div.line{

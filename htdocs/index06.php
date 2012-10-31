@@ -1,7 +1,7 @@
 <?php include 'inc/header.php'; ?>
 <?php include 'inc/slideshow.php'; ?>
 
-<div class="popup">
+<div class="popup backBlack">
 	<?php include 'inc/progressbar.php'; ?>
 </div>
 
