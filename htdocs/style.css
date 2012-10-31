@@ -323,13 +323,36 @@ div.progressbar{
 	height: 32px;
 	border: 1px #101010 solid;
 	-webkit-box-shadow: 0 0 2px 1px #545454;
-	overflow: hidden;
+	/*overflow: hidden;*/
+	position: relative;
+}
+
+div.progressbar div.percent{
+	position: absolute;
+	left: 35%;
+	bottom: 33px;
+	width: 52px;
+	height: 39px;
+	background-image: url('images/percent.png');
+	background-repeat: no-repeat;
+}
+
+div.percent span{
+	color: #DDD;
+	line-height: 26px;
+	width: 48px;
+	height: inherit;
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	font-family: "Arial Narrow";
 }
 
 div.progressbar div.bar{
 	background-image:url('images/progress.png');
 	width: 35%;
+	max-width: 100%;
 	-webkit-transition: all 500ms;
 	height: inherit;
-	background-size: contain;
+	background-size: auto 100%;
 }
