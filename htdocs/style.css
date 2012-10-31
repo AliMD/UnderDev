@@ -219,7 +219,6 @@ div.popup{
 	padding: 30px;
 }
 
-
 /*Contact-us
 ********************************/
 .contact .text {
@@ -309,4 +308,25 @@ div.popup{
 	width: 315px;
 	height: 0;
 	border: 0 none;
+}
+
+/*Contact-us
+********************************/
+div.progressbar{
+	outline: 1px solid red;
+	width: 400px;
+	height: 32px;
+}
+
+div.progressbar div.line{
+	height: inherit;
+
+}
+
+div.line div.loading{
+	background-image:url('images/progress.png');
+	width: 40%;
+	max-width: 100%;
+	height: inherit;
+
 }
