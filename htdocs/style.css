@@ -327,17 +327,27 @@ div.progressbar{
 	position: relative;
 }
 
-div.progressbar div.percent{
+div.progressbar div.percentHolder{
 	position: absolute;
 	left: 35%;
 	bottom: 33px;
-	width: 52px;
 	height: 39px;
-	background-image: url('images/percent.png');
-	background-repeat: no-repeat;
+	width: 52px;
+	-webkit-transition: left 500ms;
 }
 
-div.percent span{
+div.percentHolder div.percent{
+	position: absolute;
+	left: -50%;
+	bottom: 0;
+	width: inherit;
+	height: inherit;
+	background-image: url('images/percent.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+div.percentHolder div.percent span{
 	color: #DDD;
 	line-height: 26px;
 	width: 48px;
@@ -352,7 +362,7 @@ div.progressbar div.bar{
 	background-image:url('images/progress.png');
 	width: 35%;
 	max-width: 100%;
-	-webkit-transition: all 500ms;
+	-webkit-transition: width 500ms;
 	height: inherit;
 	background-size: auto 100%;
 }
