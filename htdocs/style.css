@@ -321,7 +321,7 @@ div.popup{
 div.progressbar{
 	margin: 150px 0 auto;
 	width: 350px;
-	height: 32px;
+	height: 25px;
 	border: 1px #101010 solid;
 	-webkit-box-shadow: 0 0 2px 1px #545454;
 	/*overflow: hidden;*/
@@ -330,11 +330,16 @@ div.progressbar{
 
 div.progressbar div.percentHolder{
 	position: absolute;
-	left: 35%;
+	left: 65%;
 	bottom: 33px;
 	height: 39px;
 	width: 52px;
-	-webkit-transition: left 500ms;
+	-webkit-transition: left 1800ms ease-in-out;
+	-webkit-transition-delay: 1100ms;
+}
+
+body.preload div.progressbar div.percentHolder{
+	left: 0;
 }
 
 div.percentHolder div.percent{
@@ -360,9 +365,14 @@ div.percentHolder div.percent span{
 
 div.progressbar div.bar{
 	background-image:url('images/progress.png');
-	width: 35%;
+	width: 65%;
 	max-width: 100%;
-	-webkit-transition: width 500ms;
+	-webkit-transition: width 1500ms ease-in-out;
+	-webkit-transition-delay: 1s;
 	height: inherit;
 	background-size: auto 100%;
+}
+
+body.preload div.progressbar div.bar{
+	width: 0;
 }
