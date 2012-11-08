@@ -4,4 +4,8 @@
 	<?php include 'inc/description.php'; ?>
 	<?php include 'inc/logo.php'; ?>
 </div>
+<div class="popup backBlack">
+<?php include 'inc/contact-us.php'; ?>
+<?php include 'inc/notify.php'; ?>
+</div>
 <?php include 'inc/footer.php'; ?>
